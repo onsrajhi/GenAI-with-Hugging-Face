@@ -1,0 +1,23 @@
+# Ignore everything by default
+**
+
+# Allow only necessary files
+!requirements.txt
+!app.py
+!main.py
+!.devcontainer/
+!.devcontainer/devcontainer.json
+!.devcontainer/Dockerfile
+!README.md
+
+# Ignore unnecessary build context
+__pycache__/
+*.py[cod]
+*.ipynb
+.vscode/
+data/
+models/
+checkpoints/
+.DS_Store
+.env
+

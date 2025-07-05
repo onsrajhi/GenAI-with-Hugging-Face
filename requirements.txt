@@ -1,0 +1,10 @@
+transformers
+datasets
+torch
+scikit-learn
+accelerate
+huggingface_hub
+jupyterlab
+gradio
+fastapi
+uvicorn
